@@ -4068,7 +4068,7 @@ style.textContent = `
 
 /* Real Estate Container */
 .real-estate-container {
-  width: 230px;
+  width: 240px;
   background: transparent;
   border-radius: 12px;
   padding: 20px;
