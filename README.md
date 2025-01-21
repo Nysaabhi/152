@@ -4068,6 +4068,7 @@ style.textContent = `
 
 /* Real Estate Container */
 .real-estate-container {
+  width: 230px;
   background: transparent;
   border-radius: 12px;
   padding: 20px;
@@ -4083,7 +4084,6 @@ style.textContent = `
 
 /* Property Item */
 .property-item {
-  width: 230px;
   background: #1a1a1f;
   border-radius: 10px;
   padding: 16px;
