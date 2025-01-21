@@ -3798,7 +3798,7 @@ style.textContent = `
 
 /* Research Item */
 .research-item {
-  width: 240px;
+  width: 230px;
   background: #232328;
   border-radius: 10px;
   padding: 16px;
@@ -4083,7 +4083,7 @@ style.textContent = `
 
 /* Property Item */
 .property-item {
-  width: 240px;
+  width: 230px;
   background: #1a1a1f;
   border-radius: 10px;
   padding: 16px;
