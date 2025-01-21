@@ -1902,6 +1902,212 @@ const searchConfig = {
     }
   },
 
+  jobDatabase: {
+    keywords: ['job', 'jobs', 'career', 'employment', 'hire', 'hiring', 'vacancy', 'opening', 'recruitment'],
+    locations: ['new delhi', 'bangalore', 'mumbai', 'hyderabad', 'pune'],
+    industries: ['IT', 'finance', 'healthcare', 'education', 'manufacturing'],
+    jobs: {
+      'new delhi': [
+        {
+          id: 'job1',
+          title: 'Software Engineer',
+          company: 'Tech Solutions Inc.',
+          location: 'New Delhi',
+          industry: 'IT',
+          type: 'Full-time',
+          experience: '2-5 years',
+          salary: '₹8,00,000 - ₹12,00,000 per annum',
+          description: 'We are looking for a skilled Software Engineer to join our team...',
+          requirements: [
+            'Bachelor’s degree in Computer Science or related field',
+            'Proficiency in Java, Python, or C++',
+            'Experience with cloud platforms (AWS, Azure)'
+          ],
+          benefits: [
+            'Health insurance',
+            'Flexible working hours',
+            'Performance bonuses'
+          ],
+          touchButtons: [
+            {
+              label: 'Apply Now',
+              url: '/apply-job/job1',
+              icon: 'fa-briefcase'
+            },
+            {
+              label: 'View Details',
+              url: '/job-details/job1',
+              icon: 'fa-info-circle'
+            }
+          ]
+        },
+        {
+          id: 'job2',
+          title: 'Financial Analyst',
+          company: 'Global Finance Corp.',
+          location: 'New Delhi',
+          industry: 'Finance',
+          type: 'Full-time',
+          experience: '3-7 years',
+          salary: '₹10,00,000 - ₹15,00,000 per annum',
+          description: 'We are seeking a Financial Analyst to provide financial planning and analysis...',
+          requirements: [
+            'MBA in Finance or related field',
+            'Strong analytical and Excel skills',
+            'Experience with financial modeling'
+          ],
+          benefits: [
+            'Health insurance',
+            'Retirement plans',
+            'Paid time off'
+          ],
+          touchButtons: [
+            {
+              label: 'Apply Now',
+              url: '/apply-job/job2',
+              icon: 'fa-briefcase'
+            },
+            {
+              label: 'View Details',
+              url: '/job-details/job2',
+              icon: 'fa-info-circle'
+            }
+          ]
+        }
+      ],
+      'bangalore': [
+        {
+          id: 'job3',
+          title: 'Data Scientist',
+          company: 'Data Insights Ltd.',
+          location: 'Bangalore',
+          industry: 'IT',
+          type: 'Full-time',
+          experience: '3-6 years',
+          salary: '₹12,00,000 - ₹18,00,000 per annum',
+          description: 'We are hiring a Data Scientist to analyze complex datasets and provide insights...',
+          requirements: [
+            'Master’s degree in Data Science or related field',
+            'Proficiency in Python, R, or SQL',
+            'Experience with machine learning frameworks'
+          ],
+          benefits: [
+            'Health insurance',
+            'Remote work options',
+            'Stock options'
+          ],
+          touchButtons: [
+            {
+              label: 'Apply Now',
+              url: '/apply-job/job3',
+              icon: 'fa-briefcase'
+            },
+            {
+              label: 'View Details',
+              url: '/job-details/job3',
+              icon: 'fa-info-circle'
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  coursesDatabase: {
+    keywords: ['course', 'courses', 'education', 'learning', 'training', 'certification', 'degree', 'diploma', 'online'],
+    subjects: ['programming', 'data science', 'business', 'design', 'healthcare'],
+    levels: ['beginner', 'intermediate', 'advanced'],
+    durations: ['short-term', 'long-term'],
+    institutions: ['Coursera', 'Udemy', 'edX', 'Simplilearn', 'UpGrad'],
+    courses: {
+      'programming': [
+        {
+          id: 'course1',
+          title: 'Python Programming for Beginners',
+          institution: 'Coursera',
+          level: 'Beginner',
+          duration: '3 months',
+          description: 'Learn Python from scratch and build real-world projects.',
+          syllabus: [
+            'Introduction to Python',
+            'Data Structures and Algorithms',
+            'Object-Oriented Programming',
+            'Web Development with Flask'
+          ],
+          fees: '₹5,000',
+          touchButtons: [
+            {
+              label: 'Enroll Now',
+              url: '/enroll-course/course1',
+              icon: 'fa-book'
+            },
+            {
+              label: 'View Syllabus',
+              url: '/course-syllabus/course1',
+              icon: 'fa-list'
+            }
+          ]
+        },
+        {
+          id: 'course2',
+          title: 'Advanced JavaScript',
+          institution: 'Udemy',
+          level: 'Advanced',
+          duration: '2 months',
+          description: 'Master JavaScript and modern frameworks like React and Node.js.',
+          syllabus: [
+            'Advanced JavaScript Concepts',
+            'React.js Fundamentals',
+            'Node.js and Express',
+            'Building Full-Stack Applications'
+          ],
+          fees: '₹3,500',
+          touchButtons: [
+            {
+              label: 'Enroll Now',
+              url: '/enroll-course/course2',
+              icon: 'fa-book'
+            },
+            {
+              label: 'View Syllabus',
+              url: '/course-syllabus/course2',
+              icon: 'fa-list'
+            }
+          ]
+        }
+      ],
+      'data science': [
+        {
+          id: 'course3',
+          title: 'Data Science Specialization',
+          institution: 'edX',
+          level: 'Intermediate',
+          duration: '6 months',
+          description: 'Learn data science with Python, R, and machine learning.',
+          syllabus: [
+            'Data Analysis with Python',
+            'Machine Learning Basics',
+            'Data Visualization',
+            'Capstone Project'
+          ],
+          fees: '₹15,000',
+          touchButtons: [
+            {
+              label: 'Enroll Now',
+              url: '/enroll-course/course3',
+              icon: 'fa-book'
+            },
+            {
+              label: 'View Syllabus',
+              url: '/course-syllabus/course3',
+              icon: 'fa-list'
+            }
+          ]
+        }
+      ]
+    }
+  },
+
   qaDatabase: {
     'how do i book a service': {
       answer: 'To book a service, click on the category, select a service, choose a package, and fill out the booking form. You can also call us directly at +91 9669181789 for immediate assistance.',
@@ -2018,6 +2224,272 @@ const searchConfig = {
     "I'm not sure about that specific question. Would you like to know about our available services or booking process instead?",
     "I couldn't find a direct answer to your question. Would you like to speak with a customer service representative?"
   ],
+
+  processCoursesQuery(query) {
+    const normalizedQuery = query.toLowerCase();
+    const words = normalizedQuery.split(' ');
+
+    // Check if the query contains course-related keywords
+    const hasCourseKeyword = this.coursesDatabase.keywords.some(keyword =>
+      normalizedQuery.includes(keyword.toLowerCase())
+    );
+
+    if (!hasCourseKeyword) {
+      return null; // Skip course processing if no relevant keywords are found
+    }
+
+    // Extract subject, level, duration, and institution from query
+    let subject = null;
+    let level = null;
+    let duration = null;
+    let institution = null;
+
+    // Check for subject
+    for (const sub of this.coursesDatabase.subjects) {
+      if (normalizedQuery.includes(sub.toLowerCase())) {
+        subject = sub;
+        break;
+      }
+    }
+
+    // Check for level
+    for (const lev of this.coursesDatabase.levels) {
+      if (normalizedQuery.includes(lev.toLowerCase())) {
+        level = lev;
+        break;
+      }
+    }
+
+    // Check for duration
+    for (const dur of this.coursesDatabase.durations) {
+      if (normalizedQuery.includes(dur.toLowerCase())) {
+        duration = dur;
+        break;
+      }
+    }
+
+    // Check for institution
+    for (const inst of this.coursesDatabase.institutions) {
+      if (normalizedQuery.includes(inst.toLowerCase())) {
+        institution = inst;
+        break;
+      }
+    }
+
+    // Filter courses based on query
+    if (subject && this.coursesDatabase.courses[subject]) {
+      let courses = this.coursesDatabase.courses[subject];
+
+      if (level) {
+        courses = courses.filter(course => course.level.toLowerCase() === level.toLowerCase());
+      }
+      if (duration) {
+        courses = courses.filter(course => course.duration.toLowerCase().includes(duration.toLowerCase()));
+      }
+      if (institution) {
+        courses = courses.filter(course => course.institution.toLowerCase() === institution.toLowerCase());
+      }
+
+      if (courses.length > 0) {
+        return this.generateCoursesResponse(subject, courses);
+      }
+    }
+
+    return this.generateGeneralCoursesResponse();
+  },
+
+  generateCoursesResponse(subject, courses) {
+    const subjectTitle = this.capitalizeFirst(subject);
+
+    const listHTML = courses.map(course => `
+      <div class="course-item" onclick="toggleDetailedInfo(this)">
+        <div class="course-header">
+          <h3>${course.title}</h3>
+          <div class="course-institution">${course.institution}</div>
+        </div>
+        <div class="course-content">
+          <p><strong>Level:</strong> ${course.level}</p>
+          <p><strong>Duration:</strong> ${course.duration}</p>
+          <p><strong>Fees:</strong> ${course.fees}</p>
+          <p>${course.description}</p>
+        </div>
+        <div class="course-actions" onclick="event.stopPropagation()">
+          ${course.touchButtons.map(btn => `
+            <button class="touch-button" data-url="${btn.url}">
+              <i class="fas ${btn.icon}"></i> ${btn.label}
+            </button>
+          `).join('')}
+        </div>
+        <div class="detailed-info hidden">
+          <div class="info-section">
+            <h4>Syllabus</h4>
+            <ul>
+              ${course.syllabus.map(topic => `<li>${topic}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+    return `
+      <div class="course-container">
+        <h2>Courses in ${subjectTitle}</h2>
+        ${listHTML}
+      </div>
+    `;
+  },
+
+  generateGeneralCoursesResponse() {
+    return `
+      <div class="course-container">
+        <h2>Courses Information</h2>
+        <p>Here are some common queries you can ask:</p>
+        <ul>
+          <li>"Find beginner-level programming courses"</li>
+          <li>"Show me data science courses on Coursera"</li>
+          <li>"What are the best online business courses?"</li>
+        </ul>
+      </div>
+    `;
+  },
+
+  processJobQuery(query) {
+    const normalizedQuery = query.toLowerCase();
+    const words = normalizedQuery.split(' ');
+
+    // Check if the query contains job-related keywords
+    const hasJobKeyword = this.jobDatabase.keywords.some(keyword =>
+      normalizedQuery.includes(keyword.toLowerCase())
+    );
+
+    if (!hasJobKeyword) {
+      return null; // Skip job processing if no relevant keywords are found
+    }
+
+    // Extract location, industry, and filters from query
+    let location = null;
+    let industry = null;
+    let jobType = null;
+    let experience = null;
+
+    // Check for location
+    for (const loc of this.jobDatabase.locations) {
+      if (normalizedQuery.includes(loc.toLowerCase())) {
+        location = loc;
+        break;
+      }
+    }
+
+    // Check for industry
+    for (const ind of this.jobDatabase.industries) {
+      if (normalizedQuery.includes(ind.toLowerCase())) {
+        industry = ind;
+        break;
+      }
+    }
+
+    // Check for job type (e.g., full-time, part-time)
+    if (normalizedQuery.includes('full-time')) {
+      jobType = 'Full-time';
+    } else if (normalizedQuery.includes('part-time')) {
+      jobType = 'Part-time';
+    }
+
+    // Check for experience (e.g., 2-5 years, fresher)
+    const experienceMatch = normalizedQuery.match(/(\d+)\s*-\s*(\d+)\s*years/);
+    if (experienceMatch) {
+      experience = `${experienceMatch[1]}-${experienceMatch[2]} years`;
+    } else if (normalizedQuery.includes('fresher')) {
+      experience = 'Fresher';
+    }
+
+    // Filter jobs based on query
+    if (location && this.jobDatabase.jobs[location]) {
+      let jobs = this.jobDatabase.jobs[location];
+
+      if (industry) {
+        jobs = jobs.filter(job => job.industry === industry);
+      }
+      if (jobType) {
+        jobs = jobs.filter(job => job.type === jobType);
+      }
+      if (experience) {
+        jobs = jobs.filter(job => job.experience === experience);
+      }
+
+      if (jobs.length > 0) {
+        return this.generateJobResponse(location, jobs);
+      }
+    }
+
+    return this.generateGeneralJobResponse();
+  },
+
+  generateJobResponse(location, jobs) {
+    const locationTitle = this.capitalizeFirst(location);
+
+    const listHTML = jobs.map(job => `
+      <div class="job-item" onclick="toggleDetailedInfo(this)">
+        <div class="job-header">
+          <h3>${job.title}</h3>
+          <div class="job-company">${job.company}</div>
+        </div>
+        <div class="job-content">
+          <p><strong>Location:</strong> ${job.location}</p>
+          <p><strong>Industry:</strong> ${job.industry}</p>
+          <p><strong>Type:</strong> ${job.type}</p>
+          <p><strong>Experience:</strong> ${job.experience}</p>
+          <p><strong>Salary:</strong> ${job.salary}</p>
+        </div>
+        <div class="job-actions" onclick="event.stopPropagation()">
+          ${job.touchButtons.map(btn => `
+            <button class="touch-button" data-url="${btn.url}">
+              <i class="fas ${btn.icon}"></i> ${btn.label}
+            </button>
+          `).join('')}
+        </div>
+        <div class="detailed-info hidden">
+          <div class="info-section">
+            <h4>Description</h4>
+            <p>${job.description}</p>
+          </div>
+          <div class="info-section">
+            <h4>Requirements</h4>
+            <ul>
+              ${job.requirements.map(req => `<li>${req}</li>`).join('')}
+            </ul>
+          </div>
+          <div class="info-section">
+            <h4>Benefits</h4>
+            <ul>
+              ${job.benefits.map(benefit => `<li>${benefit}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+    return `
+      <div class="job-container">
+        <h2>Jobs in ${locationTitle}</h2>
+        ${listHTML}
+      </div>
+    `;
+  },
+
+  generateGeneralJobResponse() {
+    return `
+      <div class="job-container">
+        <h2>Job Information</h2>
+        <p>Here are some common queries you can ask:</p>
+        <ul>
+          <li>"Find software engineer jobs in Bangalore"</li>
+          <li>"Show me full-time finance jobs in New Delhi"</li>
+          <li>"What are the latest IT job openings in Mumbai?"</li>
+        </ul>
+      </div>
+    `;
+  },
 
   processRealEstateQuery(query) {
     const normalizedQuery = query.toLowerCase();
@@ -2768,6 +3240,13 @@ class ChatSystem {
         const realEstateResponse = searchConfig.processRealEstateQuery(query);
     if (realEstateResponse) return realEstateResponse;
 
+        // Try to process as a job query (only if relevant keywords are present)
+        const jobResponse = searchConfig.processJobQuery(query);
+    if (jobResponse) return jobResponse;
+
+        // Try to process as a courses query (only if relevant keywords are present)
+        const coursesResponse = searchConfig.processCoursesQuery(query);
+    if (coursesResponse) return coursesResponse;
 
     // Try to process as a prompt query
     const promptResponse = this.processPromptQuery(query);
@@ -4068,7 +4547,7 @@ style.textContent = `
 
 /* Real Estate Container */
 .real-estate-container {
-  width: 260px;
+  width: 250px;
   background: transparent;
   border-radius: 12px;
   padding: 20px;
@@ -4150,6 +4629,270 @@ style.textContent = `
 
 /* Property Actions */
 .property-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.touch-button {
+  flex: 1;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.touch-button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.touch-button i {
+  font-size: 1rem;
+}
+
+/* Detailed Info */
+.detailed-info {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+.detailed-info h4 {
+  font-size: 1.1rem;
+  color: #FFD700;
+  margin-bottom: 12px;
+}
+
+.detailed-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.detailed-info li {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.detailed-info li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #FFD700;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* Job Container */
+.job-container {
+  width: 250px;
+  background: #232328;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.job-container h2 {
+  font-size: 1.5rem;
+  color: #FFD700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Job Item */
+.job-item {
+  background: #1a1a1f;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.job-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+/* Job Header */
+.job-header {
+  margin-bottom: 12px;
+}
+
+.job-header h3 {
+  font-size: 1.2rem;
+  color: #FFD700;
+  margin: 0;
+}
+
+.job-company {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* Job Content */
+.job-content {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.job-content p {
+  margin: 8px 0;
+}
+
+/* Job Actions */
+.job-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.touch-button {
+  flex: 1;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.touch-button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.touch-button i {
+  font-size: 1rem;
+}
+
+/* Detailed Info */
+.detailed-info {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+.detailed-info h4 {
+  font-size: 1.1rem;
+  color: #FFD700;
+  margin-bottom: 12px;
+}
+
+.detailed-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.detailed-info li {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.detailed-info li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #FFD700;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* Course Container */
+.course-container {
+  width: 250px;
+  background: #232328;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.course-container h2 {
+  font-size: 1.5rem;
+  color: #FFD700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Course Item */
+.course-item {
+  background: #1a1a1f;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.course-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+/* Course Header */
+.course-header {
+  margin-bottom: 12px;
+}
+
+.course-header h3 {
+  font-size: 1.2rem;
+  color: #FFD700;
+  margin: 0;
+}
+
+.course-institution {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+/* Course Content */
+.course-content {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.course-content p {
+  margin: 8px 0;
+}
+
+/* Course Actions */
+.course-actions {
   display: flex;
   gap: 8px;
   margin-top: 16px;
